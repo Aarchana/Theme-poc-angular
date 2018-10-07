@@ -1,7 +1,6 @@
   <div class="top-bar">
     <h4 class="alignment">IDEMIA</h4>
-    <input class="float-right" type="color" [(ngModel)] = "themeColor">
-    <span class="float-right" (click)="changeTheme(themeColor)">Ok</span>
+    <input class="float-right" type="color" (ngModelChange)="changeTheme()" [(ngModel)] = "themeColor">
   </div>
   <div class="container-fluid align-div">
     <app-grid></app-grid>
