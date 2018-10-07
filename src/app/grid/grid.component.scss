@@ -1,0 +1,25 @@
+@import '../../base';
+
+.app-card {
+    margin: 60px 40px;
+    min-height: 150px;
+    box-shadow: 3px 4px 3px 4px grey;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.imgSize {
+    height: 60px;
+}
+
+.card-desc {
+    color:  var(--themeColor);
+}
+
+h4 {
+    color: var(--themeColor);
+}
+
+.display-card {
+    display: inline-block;
+}

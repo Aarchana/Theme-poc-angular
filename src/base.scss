@@ -1,0 +1,11 @@
+.theme-wrapper{
+    --themeColor: indigo;
+};
+
+$variables: (
+    --themeColor:var(--themeColor)
+);
+
+@function var($variable) {
+    @return map-get($variables, $variable);
+}
